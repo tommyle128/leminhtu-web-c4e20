@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>C4E Blog</h2>
+    {% for post in posts %}
+    <div>
+        <!--template language: jinja2-->
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+        <p>By:
+            <!--conditional expression-->
+            <!--Falsy value: 0, None-->
+            <!--Truthy value: 1,2,3-->
+            {{ "Mr" if post.author_sex else "Ms" }}
+            {{ post.author }}
+        </p>
+        <hr>
+    </div>
+    {% endfor %}
+    
+    <!-- <div>
+        <h3>Thơ con cóc</h3>
+        <p>
+            Hôm nay trăng cao quá
+            <br> 
+            Anh muốn hôn em vào má
+        </p>
+        <p>
+            By: <i>Tu Le</i>
+        </p>
+        <hr>
+    </div>
+
+    <div>
+        <h3>Thơ con cóc</h3>
+        <p>
+            Hôm nay trăng cao quá
+            <br> 
+            Anh muốn hôn em vào má
+        </p>
+        <p>
+            By: <i>Tu Le</i>
+        </p>
+        <hr>
+    </div>
+
+    <div>
+        <h3>Thơ con cóc</h3>
+        <p>
+            Hôm nay trăng cao quá
+            <br> 
+            Anh muốn hôn em vào má
+        </p>
+        <p>
+            By: <i>Tu Le</i>
+        </p>
+        <hr>
+    </div>
+    
+    <div>
+        <h3>Thơ con cóc</h3>
+        <p>
+            Hôm nay trăng cao quá
+            <br> 
+            Anh muốn hôn em vào má
+        </p>
+        <p>
+            By: <i>Tu Le</i>
+        </p>
+        <hr>
+    </div> -->
+</body>
+</html>
