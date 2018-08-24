@@ -10,3 +10,6 @@ class Service(Document): #Service tuong ung Collection
     phone = StringField()
     address = StringField()
     status = BooleanField() #Kieu du lieu True/False luu thue roi hay chua thue
+    description = StringField()
+    measurement = ListField()
+    image = URLField()

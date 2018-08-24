@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import *
 import mlab
 from mongoengine import *
 from models.service import Service
@@ -35,6 +35,43 @@ def segment_10male_notcontacted():
     )
     
     return render_template('customer.html', all_customers=all_customers)
+
+@app.route('/admin/')
+def admin():
+    all_service = Service.objects()
+    return render_template(
+        'admin.html',
+        all_service = all_service
+        )
+
+@app.route('/delete/<service_id>')
+def delete(service_id):
+    deleted_id = Service.objects.with_id(service_id)
+    if deleted_id is not None:
+        deleted_id.delete()
+        return redirect(url_for('admin'))
+    else:
+        return "Not found"
+
+@app.route('/new-service', methods=["GET", "POST"])
+def create():
+    if request.method == "GET":
+        return render_template('new-service.html')
+    elif request.method == "POST":
+        form = request.form
+        name = form['name']
+        yob = form['yob']
+        phone = form['phone']
+
+        new_service = Service(
+            name = name,
+            yob = yob,
+            phone = phone
+        )
+        new_service.save()
+
+        return redirect (url_for('admin'))
+
 
 if __name__ == '__main__':
   app.run(debug=True)
