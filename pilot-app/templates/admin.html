@@ -33,7 +33,7 @@
             <td>{{ s.address }}</td>
             <td>{{"Rảnh" if s.status else "Bận"}}</td>
             <td>
-                <a href="">Sửa</a>
+                <a href="{{ url_for('update', service_id=s.id) }}">Sửa</a>
                 <a href="{{ url_for('delete', service_id=s.id) }}">Xóa</a>
             </td>
         </tr>

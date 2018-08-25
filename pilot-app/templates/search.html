@@ -11,17 +11,14 @@
 <body>
     <h1>Search page</h1>
     <a href="{{ url_for('index') }}">Về Trang Chủ</a>
+    <hr>
     {% for service in all_service %}
         <div>
-            {% if service.gender == 1 %}
-                <img src="../static/image/male-profile.jpg" alt="">
-            {% else %}
-                <img src="../static/image/female-profile.jpg" alt="">
-            {% endif %}
-            <p>Tên: {{ service.name }}</p>
-            <p>Năm sinh: {{ service.yob }}</p>
-            <p>Chiều cao: {{ service.height }} cm</p>
-            <p>Địa chỉ: {{ service.address }}</p>
+            <img src="/static/image/noimage-300x200.png" alt="">
+            <h2>{{ service.name }}</h2>
+            <p>{{ service.yob }}</p>
+            <p>{{ service.height }} cm</p>
+            <a href="{{ url_for('detail', service_id=service.id) }}">Chi tiết</a>
             <hr>
         </div>
     {% endfor %}

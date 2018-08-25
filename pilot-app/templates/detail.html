@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mùa đông không lạnh - Detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <img src= "/static/image2/{{ service.image }}" alt="" >
+        <h2>{{ service.name }}</h1>
+        <p><strong>Năm sinh:</strong>{{ service.yob }}</p>
+        <p><strong>Chiều cao:</strong> {{ service.height }} cm</p>
+        <p><strong>Số điện thoại:</strong> {{ service.phone }}</p>
+        <p><strong>Địa chỉ:</strong> {{ service.address }}</p>
+        <p><strong>Mô tả: </strong>
+            {% for desc in service.description %}
+            {{ desc }}, 
+            {% endfor %}
+        </p>
+        <p><strong>Số đo 3 vòng: </strong>
+            {% for meas in service.measurement %}
+            {{ meas }} -
+            {% endfor %}
+        </p>
+        <hr>
+    </div>
+    
+</body>
+</html>

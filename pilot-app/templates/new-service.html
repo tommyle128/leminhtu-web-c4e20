@@ -12,16 +12,22 @@
     <h1>New Service</h1>
     <form method="post"> <!--khi khong viet thi mac dinh method la GET-->
         <label>Name</label>
-        <input type = "text" name="name">
+        <input type = "text" name="name" placeholder="Tú Linh">
         <br>
 
         <label>Year of birth</label>
-        <input type = "text" name="yob">
+        <input type = "text" name="yob" placeholder="1994">
         <br>
 
         <label>Phone number</label>
-        <input type = "text" name ="phone">
+        <input type = "text" name ="phone" placeholder="0987654321">
         <br>
+
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" value ="male"> Male<br>
+        <input type="radio" name="gender" value = "female"> Female<br>
+        
 
         <input type = "submit" value ="Submit the info">
     </form>
