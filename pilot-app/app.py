@@ -101,21 +101,17 @@ def update(service_id):
         return render_template('update-service.html', service = service)
     elif request.method == "POST":
         form = request.form
-        if form['name'] != None:
-            name = form['name']
-            service.update(set__name = name)
-        if form['yob'] != None:
-            yob = form['yob']
-            service.update(set__yob = yob)
-        if form['height'] != None:
-            height = form['height']
-            service.update(set__height = height)
-        if form['phone'] != None:
-            phone = form['phone']
-            service.update(set__phone = phone)
-        if form['address'] != None:
-            address = form['address']
-            service.update(set__address = address)
+        if form['name'] != service['name']:
+            service.update(set__name=form['name'])
+        if form['yob'] != service['yob']:
+            service.update(set__yob=form['yob'])
+        if form['height'] != service['height']:
+            service.height(set__height=form['height'])
+        if form['phone'] != service['phone']:
+            service.update(set__phone=form['phone'])
+        if form['address'] != service['address']:
+            service.update(set__address=form['address'])
+        
 
         return redirect (url_for('admin'))
 
