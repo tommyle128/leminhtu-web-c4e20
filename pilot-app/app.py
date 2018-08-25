@@ -116,15 +116,7 @@ def update(service_id):
         if form['address'] != None:
             address = form['address']
             service.update(set__address = address)
-        
-        
-        height = form['height']
-        phone = form['phone']
-        address = form['address']
-        gender = form['gender']
 
-        
-        
         return redirect (url_for('admin'))
 
 
