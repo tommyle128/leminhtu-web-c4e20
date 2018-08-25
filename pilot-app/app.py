@@ -96,7 +96,7 @@ def detail(service_id):
 @app.route('/update/<service_id>', methods=["GET", "POST"])
 def update(service_id):
     service = Service.objects.with_id(service_id)
-
+    
     if request.method == "GET":
         return render_template('update-service.html', service = service)
     elif request.method == "POST":
