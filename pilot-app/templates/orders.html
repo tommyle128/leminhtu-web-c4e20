@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>All Orders Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>All Orders:</h2>
+    <table border="1px">
+        <thead>
+           <th>STT</th> 
+           <th>Đối tác</th>
+           <th>Người dùng</th>
+           <th>Thời gian yêu cầu</th>
+           <th></th>
+        </thead>
+        {% for d in display_orders %}
+        <tr>
+            {%if d.is_accepted == False %}
+                <td>{{ loop.index }}</td>
+                <td>{{ d.name_service }}</td>
+                <td>{{ d.name_user }}</td>
+                <td>{{ d.date_time }}</td>
+                {# <td><a href="{{ url_for('sent-mess', order_id=d.order_id) }}">Phê duyệt yêu cầu</a></td> #}
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

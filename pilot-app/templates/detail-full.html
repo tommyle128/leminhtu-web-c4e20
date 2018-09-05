@@ -3,15 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mùa đông không lạnh - Detail</title>
+    <title>Details of All Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <div>
+        {% for service in all_services %}
         <img src= "/static/image2/{{ service.image }}" alt="" width="auto" height="300px" >
-        <h2>{{ service.name }}</h2>
+        <h2>{{ loop.index }} {{ service.name }}</h2>
         <p><strong>Năm sinh:</strong>{{ service.yob }}</p>
         <p><strong>Chiều cao:</strong> {{ service.height }} cm</p>
         <p><strong>Số điện thoại:</strong> {{ service.phone }}</p>
@@ -26,8 +27,9 @@
             {{ meas }} -
             {% endfor %}
         </p>
+        <a href="{{ url_for('order', service_id=service.id) }}">Yêu cầu dịch vụ</a>
         <hr>
+        {% endfor %}
     </div>
-    
 </body>
 </html>
