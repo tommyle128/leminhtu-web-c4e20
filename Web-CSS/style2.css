@@ -1,0 +1,63 @@
+.bg-green {
+    background-color:#1b8c12;
+}
+.bg-green2{
+    background-color:#25a37f;
+}
+.bg-blue{
+    background-color:#2612ce;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-yellow{
+    background-color:#d8c70f;
+}
+
+.w-1000px {
+    width: 1000px;
+}
+.w-100px{
+    width: 100px;
+}
+.w-800px{
+    width: 800px;
+}
+.w-600px{
+    width: 600px;
+}
+
+
+
+.h-100px{
+    height: 100px;
+}
+
+.h-600px{
+    height: 600px;   
+}
+.h-50px{
+    height: 50px;
+}
+
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model {
+    margin-left:200px;
+           
+}
+
+#box-model2{
+    margin-left: 200px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+#child-box{
+    margin-right: 300px;
+}
+

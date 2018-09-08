@@ -25,7 +25,7 @@
                 <td>{{ d.name_service }}</td>
                 <td>{{ d.name_user }}</td>
                 <td>{{ d.date_time }}</td>
-                {# <td><a href="{{ url_for('sent-mess', order_id=d.order_id) }}">Phê duyệt yêu cầu</a></td> #}
+                <td><a href="{{ url_for('sent_mess', order_id=d.order_id) }}">Phê duyệt yêu cầu</a></td>
             {% endif %}
         </tr>
         {% endfor %}

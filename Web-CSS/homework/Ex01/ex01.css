@@ -1,0 +1,55 @@
+.d-inline-block{
+    display: inline-block;
+}
+
+.round-border{
+    border-radius: 120px;
+}
+
+.h-150px{
+    height: 150px;
+}
+
+.w-150px{
+    width: 150px;
+}
+
+.bg-image{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    background-image:url("./images/background-rsz.jpg");
+}
+
+.center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.font{
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+
+#small-rect{
+    background-color: white;
+    margin: 10px;
+    height:1px;
+    width: 150px; 
+}
+
+#flex-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flex-box2{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}

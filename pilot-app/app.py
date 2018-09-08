@@ -210,8 +210,9 @@ def orders():
         'orders.html',
         display_orders=display_orders
         )
+   
 
-@app.route('/orders/sent-mess/<order_id>')
+@app.route('/sent-mess/<order_id>')
 def sent_mess(order_id):
     order = Order.objects.with_id(order_id)
     order.update(set__is_accepted=True)

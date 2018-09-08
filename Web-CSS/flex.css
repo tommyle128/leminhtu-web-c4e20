@@ -1,0 +1,26 @@
+.bg-gray{
+    background-color:#bdadad;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+.w-100px{
+    width: 100px;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.m-10px{
+    margin: 10px;
+}
+
+#flex-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px
+}

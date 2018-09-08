@@ -1,0 +1,42 @@
+.text-success {
+    color:green;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.bg-blue {
+    background-color: dodgerblue;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model {
+    border:1px orangered solid;
+    margin:20px 40px 60px 80px;
+    padding: 5px 10px 15px 20px;
+    width: 50%;
+    
+}
+
+#child-box {
+    width: 100px;
+    height: 70px;
+    background-color: #c61fb8;
+        
+}
