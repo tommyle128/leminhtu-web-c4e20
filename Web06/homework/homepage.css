@@ -1,3 +1,7 @@
+.remove-1st-padding{
+    margin:0;
+}
+
 .flex-row__header{
     display: flex;
     flex-flow: row wrap;
@@ -57,12 +61,20 @@
     justify-content: flex-end;
 }
 
+.text-margin{
+    margin: 365px 0px 0px 20px
+}
+
 .inline-block{
     display:inline-block;
 }
 
 .font-color-grey{
     color:#4c4c4c;
+}
+
+.font-color-white{
+    color: white;
 }
 
 .font___header-mid{
@@ -98,12 +110,13 @@
     font-size: 14px;
 }
 
-.italic{
-    font-style: italic;
+.font-pic-large{
+    font-family: roboto;
+    font-size: 18px;
 }
 
-.h-50px{
-    height:50px;
+.italic{
+    font-style: italic;
 }
 
 .bg-grey{
@@ -236,6 +249,10 @@
 
 .h-40px{
     height:40px;
+}
+
+.h-50px{
+    height:50px;
 }
 
 .h-250px{
