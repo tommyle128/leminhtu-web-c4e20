@@ -1,0 +1,332 @@
+.flex-row__header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flew-row__header-left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flew-row__header-right{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row__header-mid{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: space-evenly;
+    
+}
+
+.flex-row__body{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-inline{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-start-block{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+
+.flex-center-text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-move-up{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.font-color-grey{
+    color:#4c4c4c;
+}
+
+.font___header-mid{
+    font-family:roboto;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.font___header-right{
+    font-family:arial;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.font___body-mid{
+    font-family:roboto;
+    font-size: 22px;
+}
+
+.font__body-mid-s{
+    font-family:roboto;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.font__body-mid-end{
+    font-family: roboto;
+    font-size: 17px;
+}
+
+.font__body-mid-right{
+    font-family: roboto;
+    font-size: 14px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.h-50px{
+    height:50px;
+}
+
+.bg-grey{
+    background-color:#ededed; 
+}
+
+.box-shadow{
+    box-shadow: 0px 0.5px grey;
+}
+
+.logo{
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-large{
+    background-image: url(images/0.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small1{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small2{
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small3{
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small4{
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small5{
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small6{
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small7{
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small8{
+    background-image: url(images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small9{
+    background-image: url(images/9.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small10{
+    background-image: url(images/10.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small11{
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic__body-mid-small12{
+    background-image: url(images/12.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon__body-mid-right1{
+    background-image: url(icons/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon__body-mid-right2{
+    background-image: url(icons/instagram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon__body-mid-right3{
+    background-image: url(icons/twitter.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon__body-mid-right4{
+    background-image: url(icons/pinterest.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.h-5px{
+    height:5px;
+}
+
+.h-20px{
+    height: 20px;
+}
+
+.h-30px{
+    height:30px;
+}
+
+.h-40px{
+    height:40px;
+}
+
+.h-250px{
+    height:250px;
+}
+
+.h-300px{
+    height:300px;
+}
+
+.h-400px{
+    height:400px;
+}
+
+.h-1000px{
+    height:1000px;
+}
+
+.h-170px{
+    height:170px;
+}
+
+.w-20px{
+    width:20px;
+}
+
+.w-40px{
+    width: 40px;
+}
+
+.w-50px{
+    width: 50px;
+}
+
+.w-60px{
+    width:60px;
+}
+
+.w-120px{
+    width:120px;
+}
+
+.w-80px{
+    width: 80px;
+}
+
+.w-100px{
+    width: 100px;
+}
+
+.w-800px{
+    width:800px;
+}
+
+.w-300px{
+    width:300px;
+}
+
+.w-200px{
+    width:200px;
+}
+
+.w-250px{
+    width:250px;
+}
+
+.w-400px{
+    width:400px;
+}
+
+.w-440px{
+    width:440px;
+}
+.w-600px{
+    width:600px;
+}
+
+.w-1100px{
+    width:1100px;
+}
+
+.w-170px{
+    width:170px;
+}
+
+.w-650px{
+    width:650px;
+}
+
+
+
+.inline-block{
+    display:inline-block;
+}

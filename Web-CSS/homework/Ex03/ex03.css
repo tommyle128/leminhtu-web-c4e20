@@ -1,0 +1,265 @@
+.flex-row-center{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-nowrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-row-between{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-row-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.flex-column{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-column-start{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.flex-column-end{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.flex-column-around{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.flex-column-between{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.margin-left{
+    margin-left: 30px;
+}
+
+.h-1000px{
+    height: 1000px;
+}
+
+.h-450px{
+    height: 450px;
+}
+
+.h-20px{
+    height: 20px;
+}
+.h-40px{
+    height: 40px;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.h-200px{
+    height: 200px;
+}
+
+.h-250px{
+    height: 250px;
+}
+
+.h-300px{
+    height: 300px;
+}
+
+.h-400px{
+    height: 400px;
+}
+
+.w-10p{
+    width: 10%;
+}
+.w-20p{
+    width: 20%;
+}
+
+
+.w-25p{
+    width: 25%;
+}
+
+.w-40p{
+    width: 40%;
+}
+
+.w-60p{
+    width: 60%;
+}
+
+.w-80p{
+    width: 80%;
+}
+
+.w-100p{
+    width: 100%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.white{
+    background-color: white;
+}
+
+.green{
+    background-color: green;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.silver{
+    background-color: silver;
+}
+
+
+.pink{
+    background-color: pink;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+}
+.light-green{
+    background-color: lightgreen;
+}
+
+.coral{
+    background-color: coral;
+}
+
+.darkolivegreen{
+    background-color: darkolivegreen
+}
+
+.line-white{
+    border-right: 1px solid white;
+}
+
+.bottom-line{
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    background-image: url(images/page-logo.png);
+}
+
+.cover{
+    background-size: cover;
+}
+
+.header{
+    background-image: url(images/header.jpg);
+}
+
+.cookbook{
+    background-image: url(images/cookbooks-blog.jpg);
+}
+
+.dinner{
+    background-image: url(images/dinner-blog.jpg);
+}
+
+.pinterest{
+    background-image: url(images/pinterest.jpg);
+}
+
+.potato{
+    background-image: url(images/potato.jpg);
+}
+
+.facebook{
+    background-image: url(images/icons/icon-facebook.png);
+}
+
+.taste{
+    background-image: url(images/icons/nav-tastemakers.png);
+}
+
+.contribute{
+    background-image: url(images/icons/nav-contribute.png);
+}
+
+.blog{
+    background-image: url(images/icons/nav-blog.png);
+}
+
+.alist{
+    background-image: url(images/icons/nav-alist.png);
+}
+
+.about{
+    background-image: url(images/icons/nav-about.png);
+}
+
+.tweet{
+    background-image: url(images/icons/icon-twitter.png);
+}
+
+.email{
+    background-image: url(images/icons/download.png);
+}
+
+.rss{
+    background-image: url(images/icons/icon-rss.png);
+}
+
+.icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.text-center{
+    text-align: end;
+}
