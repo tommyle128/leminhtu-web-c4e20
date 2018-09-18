@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mùa đông không lạnh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    {% include "meta-data.html" %}
 </head>
 <body>
-    <h1>Mùa Đông Không Lạnh</h1>
+    {% include "homepage/navigation.html" %}
+    {% include "homepage/carousel.html" %}
+    {% include "homepage/slide2.html" %}
+    {% include "homepage/slide3.html" %}
+    {% include "homepage/slide4.html" %}
+    {% include "homepage/slide5.html" %}
+    <!--
     <br>
     <a href="/detail-full">Chi tiết</a>
     <br>
@@ -18,5 +23,6 @@
     <a href="{{ url_for('search', g=0) }}">Click vào em đi!</a>
     <a href="{{ url_for('search', g=1) }}">Click vào anh đi!</a>
     <a href="/customer/male/notcontacted/first10">10 First Male Customers - Not Contacted</a>
+    -->
 </body>
 </html>

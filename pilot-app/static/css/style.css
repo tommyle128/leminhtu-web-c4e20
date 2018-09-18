@@ -1,0 +1,141 @@
+.font-lobster{
+    font-family: 'Lobster', cursive;
+}
+
+.mb-300px{
+    margin-bottom: 300px;
+}
+
+.h-50px{
+    height:50px;
+}
+
+.h-400px{
+    height: 400px;
+}
+
+.h-600px{
+    height: 600px;
+}
+
+.font-21px{
+    font-size: 21px;
+}
+
+.font-25px{
+    font-size: 25px;
+}
+
+.font-30px{
+    font-size: 30px;
+}
+
+.font-35px{
+    font-size: 35px;
+}
+
+
+.mr-left-10{
+    margin-left:10%;
+}
+
+.mr-right-10{
+    margin-right:10%;
+}
+
+.mr-left-15{
+    margin-left:15%;
+}
+
+.mr-right-15{
+    margin-right:15%;
+}
+
+.mr-top-15{
+    margin-top:15%;
+}
+
+.mr-left-50{
+    margin-left:50%;
+}
+
+.mr-left-45{
+    margin-left:45%;
+}
+
+.mr-left-5{
+    margin-left:10%;
+}
+
+.pic-male{
+    background-image: url(../image/male.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic-female{
+    background-image: url(../image/female.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic-size-slide2{
+    height:90%;
+    width: 45%;
+}
+
+.bg-slide3{
+    background-image:url(../image/night.jpg);
+    background-repeat: repeat;
+    background-size:contain;
+}
+
+.pic-size-slide3{
+    height:200px;
+    width:200px;
+}
+
+.pic1-slide3{
+    background-image:url(../image/steel.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.pic2-slide3{
+    background-image:url(../image/rocks.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.pic3-slide3{
+    background-image:url(../image/woods.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.pic4-slide3{
+    background-image:url(../image/lightning.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.border-white{
+    border: 5px solid white;
+    border-radius: 3px;
+}
+
+.bg-grey1{
+    background-color: #c1bfbf;
+}
+
+.bg-grey2{
+    background-color:#808a8e;
+}
+
+.text-grey{
+    color:#c1bfbf;
+}
+
+.text-bold{
+    font-weight: 500;
+}
